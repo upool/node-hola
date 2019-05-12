@@ -7,7 +7,8 @@ const createServer = function(req, res){
   res.end();
 }
 
+var port = process.env.port || 3000;
 const server = http.createServer(createServer);
-server.listen(3000, function(){
+server.listen(port, function(){
   console.log('Se ha iniciado el server...'.yellow);
 });
