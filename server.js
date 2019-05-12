@@ -3,7 +3,7 @@ const colors = require('colors');
 
 const createServer = function(req, res){
   res.writeHead(200, {'Content-type': 'text/html'});
-  res.write("<h1>Hola Mundo Nodejs !!</h1>");
+  res.write("<h1>Hola Mundo !!</h1>");
   res.end();
 }
 
