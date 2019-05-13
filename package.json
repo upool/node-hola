@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test_express": "node serverexpress.js"
+    "start": "node server.js"
   },
   "keywords": [
     "node",
@@ -14,7 +13,5 @@
   "author": "ddd",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.3.3",
-    "express": "^4.16.4"
   }
 }

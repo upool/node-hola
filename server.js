@@ -1,5 +1,4 @@
 const http = require('http');
-const colors = require('colors');
 
 const createServer = function(req, res){
   res.writeHead(200, {'Content-type': 'text/html'});
@@ -10,5 +9,5 @@ const createServer = function(req, res){
 var port = process.env.port || 3000;
 const server = http.createServer(createServer);
 server.listen(port, function(){
-  console.log('Se ha iniciado el server...'.yellow);
+  console.log('Se ha iniciado el server...');
 });
